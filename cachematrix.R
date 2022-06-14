@@ -30,8 +30,8 @@ cacheSolve <- function(x, ...) {
     message("getting cached data")
     return(inve)
   }
-  date <- x$get()
-  inve <- solve(date, ...)
+  irekae <- x$get()
+  inve <- solve(irekae, ...)
   x$setInverse(inve)
   inve
 }
